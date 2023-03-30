@@ -125,7 +125,7 @@ answers.keyup(function(e) {
         const list=document.getElementById("myId67");
         list.removeChild(list.firstElementChild);
         var paragraph = document.createElement("P");
-        paragraph.innerHTML = "H";
+        paragraph.innerHTML = "O";
         list.appendChild(paragraph);
        }
       else
@@ -148,18 +148,18 @@ answers.keyup(function(e) {
      }
 
     if(myInput=='t'&& myIndex==4 && floatc==3){
-      const list=document.getElementById("myId64");
+      const list=document.getElementById("myId65");
       list.removeChild(list.firstElementChild);
       var paragraph = document.createElement("P");
-      paragraph.innerHTML = "F";
+      paragraph.innerHTML = "A";
       list.appendChild(paragraph);
     }
     if(myInput=='n' && myIndex===25 && functionc==7)
       {
-        const list=document.getElementById("myId65");
+        const list=document.getElementById("myId64");
         list.removeChild(list.firstElementChild);
         var paragraph = document.createElement("P");
-        paragraph.innerHTML = "U";
+        paragraph.innerHTML = "C";
         list.appendChild(paragraph);
       }
     if(myInput=='y' && myIndex===14 && arrayc==4)
@@ -176,7 +176,7 @@ answers.keyup(function(e) {
           const list=document.getElementById("myId67");
         list.removeChild(list.firstElementChild);
         var paragraph = document.createElement("P");
-        paragraph.innerHTML = "H";
+        paragraph.innerHTML = "O";
         list.appendChild(paragraph);
         booleanc++;
         }
